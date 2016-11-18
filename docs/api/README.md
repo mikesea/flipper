@@ -775,14 +775,14 @@ Successful disabling of a percentage of time will set the percentage to 0 and re
 ```
 
 ## Errors
-In the event of an error the Flipper API will return an error object.  The error object will contain a Flipper-specific error code, an error message, and a link to the documentation for the given error code.
+In the event of an error the Flipper API will return an error object.  The error object will contain a Flipper-specific error code, an error message, and a link to documentation providing more information about the error.
 
 *example error object*
 ```json
 {
     "code": 1,
     "message": "Feature not found",
-    "more_info": "https://github.com/jnunemaker/flipper/...",
+    "more_info": "https://github.com/jnunemaker/flipper/tree/master/docs/api#error-code-reference",
 }
 ```
 
